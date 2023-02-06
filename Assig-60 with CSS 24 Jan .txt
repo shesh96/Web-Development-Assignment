@@ -1,14 +1,14 @@
 Q-1: What is CSS an why use it ?
 
-Ans-CSS stands for Cascading Style Sheets. It is very usefull features and we use to make website good looking. CSS helps web developers to style the website so that the users can have a great user experience.This includes colors,        backgrounds, fonts, spacing, animations, etc.You can add new looks to your old HTML documents.CSS saves time and easy maintenance page load faster.
+Ans-CSS stands for Cascading Style Sheets. It is very usefull features and we use to make website good looking. CSS helps web developers to style the website so that the users can have a great user experience.This includes colors, backgrounds, fonts, spacing, animations, etc.You can add new looks to your old HTML documents.CSS saves time and easy maintenance page load faster.
  
 Q 2: What are the different ways to bring CSS into an HTML file?
 
  Ans-  There are three different ways to bring CSS into an HTML file.
           1.  Inline styling:- It is called "inline" because the style is applied directly to the element, in the same line of HTML code.
-          2. Internal styling:-To use internal styling, we should place the style element within the head of the HTML document, and include your CSS rules within the style element.
-          3. External styling:-To use external styling, we should create a CSS file and define our styles in that file. we can then link to the CSS file from our HTML document using the link element.
+          2. Internal styling:-To use internal styling, we should place the style element within the head of the HTML document, and include your CSS rules within the                  style element.
+          3. External styling:-To use external styling, we should create a CSS file and define our styles in that file. we can then link to the CSS file from our HTML              document using the link element.
 
 Q-3: What do you mean by secificity in CSS?
 
-Ans- Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element. The specificity algorithm calculates the weight         of a CSS selector to determine which rule from competing CSS declarations gets applied to an element. 
+Ans- Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element. The specificity algorithm calculates the weight of a CSS selector to determine which rule from competing CSS declarations gets applied to an element. 
