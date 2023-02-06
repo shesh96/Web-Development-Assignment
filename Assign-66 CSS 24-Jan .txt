@@ -11,7 +11,7 @@ Ans- There are five types of CSS Selectors.
         5. Pseudo-elements selectors.
 
 Q-3:  How do you include external fonts and apply them ?
- Ans- By opening the google fonts and select the desired font , copy font address and paste the HTML head then copy the font family of google fonts and paste the CSS  file then completly applied. 
+ Ans- By opening the google fonts and select the desired font , copy font address link and paste in the HTML head then copy the font family of google fonts and paste in the CSS  file then completly applied. 
          Step 1: Browse the Google Fonts library
          Step 2: Select the fonts and customize the styles.
          Step 3: Generate the code for adding the fonts to your project.
