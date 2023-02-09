@@ -1,0 +1,38 @@
+Q-1 What is the grid ?
+
+ANS- The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning. It is one dimentional .
+
+Q-2 What is th difference between Flex and grid ?
+
+ANS- Flex :-
+ I-Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.
+II-Flex Container is the parent element while Flex Item represents the children.
+III-Flex Container is the parent element while Flex Item represents the children.
+Grid :-
+I-Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.
+II- CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.
+III-Grid supports both implicit and explicit content placement. Its inbuilt automation allows it to automatically extend line items and copy values into the new creation from the preceding item.
+
+Q-3 How can you define rows and columns for your grid ?
+
+ANS- The grid-row property in CSS is used to specify the size and location in a grid layout. It is the combination of grid-row-start and grid-row-end property.
+Syntax:
+grid-row: It is used to specify the size and location in a grid layout.
+grid-row-end: It is used to define the grid item’s end position within a grid row by specifying the inline edge of its grid area.
+grid-row-gap: It is used to define the size of the gap between the grid elements.
+grid-row-start: It is used to define the grid items’ start position within the grid row by specifying the inline start edge of its grid area.
+
+grid-column: It describes the number of properties that allow to design of grid structures and control the placement of grid items using CSS.
+grid-column-end: It explains the number of columns an item will span, or on which column-line the item will end.
+grid-column-gap: It is used to set the size of the gap between the columns in a grid layout.
+grid-column-start: It defines for which column line item will start.
+grid-gap: It is used to sets the size of the gap between the rows and columns in a grid layout.
+
+Q-4 List any two properties of the grid item and grid container.
+
+ANS- Grid Container :-
+I-The grid-template-rows property defines the height of each row.
+II-The justify-content property is used to align the whole grid inside the container.
+Grid items:-
+I-The grid-column property defines on which column(s) to place an item.
+II- The grid-row property defines on which row to place an item.
