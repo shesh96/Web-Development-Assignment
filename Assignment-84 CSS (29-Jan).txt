@@ -1,0 +1,30 @@
+ Q-1 What is position property in CSS and its types ?
+
+ANS-CSS Position is a very powerful technique used to control the layout of elements on a web page. 
+       These properties are used to position an element relative to its parent container or to the viewport.
+        The value of top, bottom, left and right can be negative.
+    There are majorly 5 position properties named-
+     1. Static
+     2. Relative
+     3. Absolute
+     4. Fixed
+     5. Sticky
+
+Q-2 How many types of positioning are there in CSS ?
+
+ANS- The positioning elements in CSSCascading Style Sheet define the position of the HTML entity or the element. In CSS, there are five different types of positioning properties available:
+ 1.Fixed:- An element with the position fixed always stays in the same place even if we scroll the page. It remains inthe same place.
+
+2.Static:-The static method of positioning is set by default. Such elements are not affected by the properties of the left, right, top, and bottom.
+
+3.Relative:- An element with a relative position is positioned relative to its normal position. If we set up the left, right, top, and bottom, we won’t be able to fill the gap left by this element.
+ 
+4.Absolute:- An element with the absolute position is positioned with respect to its parent. It doesn’t depend on the elements under the same level or the siblings.
+
+5.Sticky:- An element with the sticky position is positioned according to the position of the user’s scroll.
+
+
+Q-3 What is Z-index and why to use it?
+
+ANS- Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. Note: Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed ).
+If we want to create a custom stacking order, we can use the z-index property on a positioned element. Note: When no z-index property is specified, elements are rendered on the default rendering layer (Layer 0).
