@@ -1,0 +1,15 @@
+1) Why do we start learning a programming language with “Hello, World!”?
+
+We start with “Hello, World!” because it is the simplest program to understand. It helps beginners check if the language is working correctly and shows how code runs and gives output. Writing this program builds confidence before moving to harder concepts.
+
+2) How is the use of comments and how do you write comments in HTML?
+
+Comments are used to explain code and make it easier to understand. They are not shown on the web page and do not affect the output. In HTML, comments are written using <!-- comment -->.
+
+3) What are elements, tags, and attributes, and the difference between them?
+
+Tags are used to define HTML content, elements are made of opening tag, content, and closing tag, and attributes give extra information about an element. In simple words, tags create structure, elements contain content, and attributes add details.
+
+4) Briefly explain what HTML entities are.
+
+HTML entities are used to display special characters that cannot be written directly in HTML. They help show symbols like <, >, and & correctly on a web page
