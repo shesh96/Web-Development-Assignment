@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+
+        <!-- Header -->
+        <div class="header">
+            <img src="assets/profile.png" alt="Profile" class="profile-img">
+            <h2>Mark Anderson</h2>
+            <p>Web Developer</p>
+        </div>
+
+        <!-- Illustration -->
+        <div class="illustration">
+            <img src="assets/desk.png" alt="Workspace">
+        </div>
+
+        <!-- Projects -->
+        <h3 class="section-title">Projects</h3>
+
+        <div class="projects">
+            <div class="project-box">Project 1</div>
+            <div class="project-box">Project 2</div>
+            <div class="project-box">Project 3</div>
+            <div class="project-box">Project 4</div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Contact Me</p>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.card {
+    background: #0b132b;
+    color: white;
+    width: 420px;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+/* Header */
+.header h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header p {
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
+.profile-img {
+    width: 60px;
+}
+
+/* Illustration */
+.illustration img {
+    width: 180px;
+    margin: 20px 0;
+}
+
+/* Projects */
+.section-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.project-box {
+    background: #2d2d2d;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 12px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.dots span {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    background: #4cc9f0;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+/* 📱 Mobile View (Frame 2) */
+@media (max-width: 480px) {
+
+    .card {
+        width: 260px;
+        padding: 18px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project-box {
+        height: 70px;
+    }
+
+    .illustration img {
+        width: 140px;
+    }
+}
