@@ -1,0 +1,45 @@
+1) What is HTML?
+
+HTML stands for HyperText Markup Language. It is the basic building block of the web. HTML is used to create the structure of a web page.
+
+With HTML, we define elements like headings, paragraphs, images, links, tables, and forms. It tells the browser what content to show and in what order, but it does not control how the page looks or behaves.
+
+In simple words, HTML is the skeleton of a website.
+
+2) What is CSS?
+
+CSS stands for Cascading Style Sheets. It is used to control the design and appearance of a website.
+
+CSS is responsible for colors, fonts, spacing, layouts, animations, and responsiveness. It helps make websites look attractive and consistent across different screen sizes.
+
+While HTML creates the structure, CSS makes the website look good.
+
+3) Why did JavaScript come into the picture?
+
+Initially, websites were static, meaning they could only display information and could not interact with users.
+
+JavaScript came into the picture to make websites dynamic and interactive. It allows web pages to respond to user actions like clicks, form submissions, scrolling, and keyboard input without reloading the page.
+
+JavaScript helps in:
+
+Validating forms
+
+Creating animations
+
+Updating content dynamically
+
+Building interactive features
+
+In short, JavaScript makes websites alive and interactive.
+
+4) History of JavaScript and ECMAScript (in my own words)
+
+JavaScript was created in 1995 by Brendan Eich while working at Netscape. It was developed very quickly to add simple interactivity to web pages.
+
+As JavaScript became popular, different browsers started implementing it differently, which caused compatibility issues. To solve this problem, a standard version of JavaScript was introduced called ECMAScript.
+
+ECMAScript is the official standard that defines how JavaScript should work. JavaScript is the language we use, and ECMAScript is the rulebook behind it.
+
+Over the years, many versions of ECMAScript were released. A major update came with ES6 (ECMAScript 2015), which introduced modern features like let, const, arrow functions, and classes. These updates made JavaScript more powerful and easier to write.
+
+Today, JavaScript follows ECMAScript standards and is used not only in browsers but also on servers, mobile apps, and desktop applications.
