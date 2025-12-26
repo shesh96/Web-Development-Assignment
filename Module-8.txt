@@ -1,0 +1,29 @@
+1) What is the difference between UI and UX?
+UI (User Interface) refers to how a product looks. It includes design elements such as buttons,
+colors, fonts, icons, and layout. UI focuses on visual appearance and presentation.
+UX (User Experience) refers to how a product feels when someone uses it. It focuses on usability,
+ease of navigation, and overall user satisfaction. UX ensures the product is simple and effective to
+use.
+In short, UI is about design, while UX is about experience.
+2) Who is a Frontend Developer?
+A frontend developer is responsible for building the part of a website or application that users see
+and interact with directly. They convert designs into real web pages using HTML, CSS, and
+JavaScript.
+Their responsibilities include creating responsive layouts, ensuring browser compatibility, improving
+performance, and making websites user-friendly and accessible.
+3) Who is a Backend Developer?
+A backend developer works on the server side of an application. They handle databases, servers,
+application logic, and APIs that power the frontend.
+Their responsibilities include managing data, ensuring security, handling user authentication, and
+making sure the application runs smoothly behind the scenes.
+4) GitHub & LinkedIn Accounts
+GitHub Profile:
+https://github.com/shesh96
+LinkedIn Profile:
+https://www.linkedin.com/in/shesh-ram/
+(Screenshots of both profiles are attached as required.)
+5) First Blog
+Blog Title: Why I Chose Web Development as My Career
+Platform: Medium
+Blog Link:
+https://medium.com/@shesh96/why-i-chose-web-development-as-my-caree
