@@ -1,0 +1,7 @@
+What is Emmet?
+
+Emmet is a developer tool used in code editors to write HTML and CSS faster. It allows developers to use short abbreviations that automatically expand into full code. This helps save time and reduces repetitive typing while writing code.
+
+What are the advantages of using Emmet?
+
+Emmet makes coding faster and easier by reducing the amount of code we need to type. It improves productivity, reduces typing errors, and helps developers write clean and structured code quickly. Emmet is especially useful for writing HTML and CSS efficiently.
