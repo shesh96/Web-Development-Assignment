@@ -1,0 +1,227 @@
+//index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beats 3 – Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">b</div>
+    <ul>
+      <li>Home</li>
+      <li>Specs</li>
+      <li>Case</li>
+      <li>Products</li>
+    </ul>
+    <button class="shop-btn">Shop</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="assets/headphone.png" class="hero-img">
+    <div class="hero-text">
+      <h1>On ear</h1>
+      <h2>Beats 3</h2>
+      <p>Experience premium sound with crystal clear audio, deep bass, and unmatched comfort.</p>
+      <button class="add-btn">Add to Bag</button>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section class="brands">
+    <span>Apple</span>
+    <span>Spotify</span>
+    <span>Amazon</span>
+    <span>YouTube</span>
+  </section>
+
+  <!-- SPECS -->
+  <section class="specs">
+    <h2>Specs</h2>
+    <div class="spec-content">
+      <ul>
+        <li>Connection: Bluetooth</li>
+        <li>Battery: 40 Hours</li>
+        <li>Load: Fast Charge</li>
+        <li>Mic: Built-in</li>
+      </ul>
+      <img src="assets/earbud.png">
+    </div>
+  </section>
+
+  <!-- CASE -->
+  <section class="case">
+    <h2>Case</h2>
+    <div class="case-content">
+      <img src="assets/case.png">
+//style.css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.shop-btn {
+  background: #1f1f1f;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 60px;
+}
+
+.hero-img {
+  width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  opacity: 0.2;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+}
+
+.hero-text p {
+  font-size: 14px;
+  color: #aaa;
+  max-width: 320px;
+  margin: 20px 0;
+}
+
+.add-btn {
+  background: #1f1f1f;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+}
+
+/* BRANDS */
+.brands {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  opacity: 0.5;
+  padding: 30px 0;
+}
+
+/* SPECS */
+.specs {
+  padding: 80px 60px;
+}
+
+.spec-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spec-content ul li {
+  list-style: none;
+  margin: 12px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.spec-content img {
+  width: 180px;
+}
+
+/* CASE */
+.case {
+  padding: 80px 60px;
+}
+
+.case-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.case-content img {
+  width: 180px;
+}
+
+.case-content p {
+  color: #aaa;
+  max-width: 300px;
+}
+
+/* BUY */
+.buy {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.buy-box {
+  background: #1a1a1a;
+  padding: 40px 60px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 80px 60px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 30px;
+}
+
+.card {
+  background: #1f1f1f;
+  height: 140px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  padding: 40px;
+  text-align
+
+
