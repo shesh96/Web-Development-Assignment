@@ -1,0 +1,15 @@
+1) Explain the Table and its properties.
+
+An HTML table is used to display data in rows and columns. It is created using the <table> tag, where <tr> represents a table row, <th> represents a table header, and <td> represents table data. Common table properties include border to show borders, cellpadding to add space inside cells, cellspacing to add space between cells, and colspan and rowspan to merge columns or rows. Tables help present data in a structured and readable format.
+
+2) Explain all Media elements and how they work.
+
+HTML media elements are used to display audio, video, and images on web pages. The <audio> tag is used to play sound files, the <video> tag is used to play video files, and the <img> tag is used to display images. The <source> tag is used inside audio and video tags to provide different file formats. Media elements work by loading the media file using the src attribute and playing it using browser controls.
+
+3) What is GET and POST in Form?
+
+GET and POST are HTTP methods used to send form data to a server. GET sends data through the URL and is mainly used for fetching data, but it is not secure. POST sends data inside the request body, making it more secure and suitable for sending sensitive information like passwords. GET is faster and visible, while POST is safer and hidden.
+
+4) List all the input types we have in forms.
+
+HTML forms support different input types such as text, password, email, number, tel, url, search, radio, checkbox, file, date, time, datetime-local, month, week, color, range, hidden, submit, reset, and button. These input types help collect different kinds of user data in a proper format.
