@@ -1,0 +1,15 @@
+1) What are inline and block elements in HTML and the difference between them? Name a few inline and block elements.
+
+Block elements take up the full width of the page and always start on a new line, while inline elements take only the space needed and stay in the same line. Block elements are mainly used for layout and structure, whereas inline elements are used inside content. Examples of block elements are div, p, h1, and ul. Examples of inline elements are span, a, img, and strong.
+
+2) How to work with images in HTML and explain the <img /> tag important attributes.
+
+Images in HTML are added using the <img /> tag, which is a self-closing tag. The src attribute defines the image path, and the alt attribute provides alternative text if the image fails to load. The width and height attributes control the image size, and the title attribute shows text when hovering over the image.
+
+3) How to create lists in HTML.
+
+Lists in HTML are used to display items in an organized way. Ordered lists use numbers and are created using the <ol> tag, while unordered lists use bullet points and are created using the <ul> tag. Each item inside the list is written using the <li> tag.
+
+4) How to interlink web pages and navigate people to other websites?
+
+Web pages are connected using the <a> (anchor) tag. The href attribute specifies the link to another page or website. When users click the link, they are taken to the specified destination, allowing easy navigation within or outside a website.
