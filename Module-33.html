@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>This is a Media Query demo page.</h2>
+        <p class="size-text">Screen size : Default</p>
+    </div>
+
+</body>
+</html>
+
+
+//css file
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+/* Default (Frame 1) */
+.box {
+    width: 60%;
+    height: 250px;
+    background-color: #7fffd4;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+}
+
+.box h2 {
+    font-size: 22px;
+}
+
+.size-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Frame 2 – Screen size ≥ 1440px */
+@media (min-width: 1440px) {
+    .box {
+        background-color: #228b22;
+        color: white;
+    }
+
+    .size-text::after {
+        content: "1440px";
+    }
+}
+
+/* Frame 3 – Screen size ≤ 1024px */
+@media (max-width: 1024px) {
+    .box {
+        background-color: #b08a2e;
+        color: black;
+    }
+
+    .size-text::after {
+        content: "1024px";
+    }
+}
+
+/* Frame 4 – Screen size ≤ 768px */
+@media (max-width: 768px) {
+    .box {
+        background-color: #7ffcff;
+    }
+
+    .size-text::after {
+        content: "768px";
+    }
+}
+
+/* Frame 5 – Screen size ≤ 425px */
+@media (max-width: 425px) {
+    .box {
+        background-color: #d64545;
+        color: white;
+    }
+
+    .box h2 {
+        font-size: 18px;
+    }
+
+    .size-text::after {
+        content: "425px";
+    }
+}
