@@ -1,0 +1,134 @@
+//index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PW Skills Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            ☰ logo
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Pricing</a>
+        </nav>
+
+        <button class="contact-btn">Contact Us</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>
+                We Help You<br>
+                Crush Your<br>
+                Competition
+            </h1>
+
+            <p>
+                Build trust to connect your brand to billions of users and grow
+                your revenue through SEO.
+            </p>
+
+            <button class="service-btn">See our services</button>
+        </div>
+
+        <div class="hero-right">
+            <img src="https://undraw.co/api/illustrations/seo?color=6c63ff"
+                 alt="Illustration">
+        </div>
+    </section>
+
+</body>
+</html>
+
+//style.css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.contact-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-left {
+    max-width: 500px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #3f3d56;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.service-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-right img {
+    max-width: 420px;
+}
+
